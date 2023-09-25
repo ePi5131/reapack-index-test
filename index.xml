@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" commit="62f4be7f0334a3c32932d9479b5544f361f579cb">
+<index version="1" commit="62f4be7f0334a3c32932d9479b5544f361f579cb" name="ePi-reapack-index-test">
   <category name="src">
     <reapack name="test-reascript.lua" type="script" desc="test-reascript">
       <version name="1.0" author="ePi" time="2023-09-25T18:57:49Z">
