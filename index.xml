@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1">
+<index version="1" commit="62f4be7f0334a3c32932d9479b5544f361f579cb">
+  <category name="src">
+    <reapack name="test-reascript.lua" type="script" desc="test-reascript">
+      <version name="1.0" author="ePi" time="2023-09-25T18:57:49Z">
+        <source main="main">https://github.com/ePi5131/reapack-index-test/raw/3a6f9bf6726de454b5c23c35798c748ae1ae2339/src/test-reascript.lua</source>
+      </version>
+    </reapack>
+  </category>
   <metadata>
     <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
