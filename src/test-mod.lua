@@ -1,5 +1,5 @@
 --[[
-@noindex
+@provides [nomain] .
 @description test-mod
 @version 1.0
 @author ePi
