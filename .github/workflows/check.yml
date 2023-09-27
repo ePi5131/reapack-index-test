@@ -16,7 +16,4 @@ jobs:
       - name: Fetch repository
         uses: actions/checkout@v3
       - name: Validate packages
-        run: |
-          git checkout index
-          git merge master
-          reapack-index --check
+        run:  reapack-index --check
