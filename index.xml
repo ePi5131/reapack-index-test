@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" commit="6af7b92e2256c74e3a90aba6f0fc7544a7e950a5" name="ePi-reapack-index-test">
+<index version="1" commit="7badb2648b290c1cfeabfc4d6fb25ac6a6f60eac" name="ePi-reapack-index-test">
   <category name="src">
+    <reapack name="test-mod.lua" type="script" desc="test-mod">
+      <version name="1.0" author="ePi" time="2023-09-27T22:51:43Z">
+        <source>https://github.com/ePi5131/reapack-index-test/raw/7badb2648b290c1cfeabfc4d6fb25ac6a6f60eac/src/test-mod.lua</source>
+      </version>
+    </reapack>
     <reapack name="test-reascript.lua" type="script" desc="test-reascript">
       <version name="1.0" author="ePi" time="2023-09-25T18:57:49Z">
         <source main="main">https://github.com/ePi5131/reapack-index-test/raw/3a6f9bf6726de454b5c23c35798c748ae1ae2339/src/test-reascript.lua</source>
