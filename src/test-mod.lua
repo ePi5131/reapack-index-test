@@ -1,5 +1,5 @@
 --[[
-@metapackage
+@noindex
 @description test-mod
 @version 1.0
 @author ePi
