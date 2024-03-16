@@ -1,31 +1,26 @@
 --[[
 @description test-reascript
-@version 1.1
+@version 1.2
 @author ePi
 ]]
 local R=reaper
 
 local mod
 do
-    local function E(x,y)return x or error(y)end
-    local ext_key="ePi-reapack-index-test"
-    local ext_mod_code="mod.code"
-    local mod_fn
-    if(R.HasExtState(ext_key,ext_mod_code))then
-        mod_fn=E(load(R.GetExtState(ext_key,ext_mod_code)))
-    else
-        local file=io.open(R.GetResourcePath()..[[\Scripts\ePi-reapack-index-test\src\test-mod.lua]])
-        if(file==nil)then
-            R.ShowConsoleMsg"Require test-mod"
+    local mod_fn,err=loadfile(R.GetResourcePath()..[[\Scripts\ePi-reapack-index-test\src\test-mod.lua]],"t")
+    if(mod_fn==nil)then
+        ---@diagnostic disable-next-line: need-check-nil
+        if(err:match"cannot open")then
+            R.ShowConsoleMsg"Requires test-mod"
             R.ReaPack_BrowsePackages"test-mod"
             return
         end
-        local code=file:read"a"
-        file:close()
-        R.SetExtState(ext_key,ext_mod_code,code,false)
-        mod_fn=E(load(code))
+        error(err)
     end
-    mod=mod_fn()
+    mod=mod_fn()--[[@as MOD]]
 end
 
 R.ShowConsoleMsg(mod.func())
+local s,i=mod.func2({"hoge","fuga","piyo"},42)
+R.ShowConsoleMsg(s)
+R.ShowConsoleMsg(tostring(i))
