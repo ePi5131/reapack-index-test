@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" commit="7badb2648b290c1cfeabfc4d6fb25ac6a6f60eac" name="ePi-reapack-index-test">
+<index version="1" commit="b3291fbab846f37d2be83938c0638836552e1d85" name="ePi-reapack-index-test">
   <category name="src">
     <reapack name="test-mod.lua" type="script" desc="test-mod">
       <version name="1.0" author="ePi" time="2023-09-27T22:51:43Z">
         <source>https://github.com/ePi5131/reapack-index-test/raw/7badb2648b290c1cfeabfc4d6fb25ac6a6f60eac/src/test-mod.lua</source>
+      </version>
+      <version name="1.1" author="ePi" time="2024-03-16T23:23:59Z">
+        <source>https://github.com/ePi5131/reapack-index-test/raw/b3291fbab846f37d2be83938c0638836552e1d85/src/test-mod.lua</source>
       </version>
     </reapack>
     <reapack name="test-reascript.lua" type="script" desc="test-reascript">
@@ -12,6 +15,9 @@
       </version>
       <version name="1.1" author="ePi" time="2023-09-27T22:22:22Z">
         <source main="main">https://github.com/ePi5131/reapack-index-test/raw/a311118820edf45503f4bea99265517d85d2f2c1/src/test-reascript.lua</source>
+      </version>
+      <version name="1.2" author="ePi" time="2024-03-16T23:23:59Z">
+        <source main="main">https://github.com/ePi5131/reapack-index-test/raw/b3291fbab846f37d2be83938c0638836552e1d85/src/test-reascript.lua</source>
       </version>
     </reapack>
   </category>
@@ -22,6 +28,13 @@
 
 {\pard \ql \f0 \sa180 \li0 \fi0 ReaPack/reapack-index\u26908?\u35388?\u29992?\u12522?\u12509?\u12472?\u12488?\u12522?\u12391?\u12377?\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \f1 https://github.com/ePi5131/reapack-index-test/raw/index/index.xml\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs32 \u27083?\u25104?\u12395?\u12388?\u12356?\u12390?\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \u12371?\u12398?\u12424?\u12358?\u12394?\u36939?\u29992?\u12434?\u23455?\u39443?\u12375?\u12390?\u12356?\u12414?\u12377?\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab \u12473?\u12463?\u12522?\u12503?\u12488?\u12398?\u22793?\u26356?\u12399?\u26368?\u32066?\u30340?\u12395?master\u12502?\u12521?\u12531?\u12481?\u12395?\u38598?\u32004?\u12377?\u12427?\par}
+{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab \u24517?\u35201?\u12394?\u12425?master\u12363?\u12425?\u12502?\u12521?\u12531?\u12481?\u12434?\u20999?\u12387?\u12390?\u12354?\u12428?\u12371?\u12428?\u12377?\u12427?\sa180\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab GitHub Actions\u12398?\u12527?\u12540?\u12463?\u12501?\u12525?\u12540?\u12434?master\u12502?\u12521?\u12531?\u12481?\u12408?\u12398?\u22793?\u26356?\u12391?\u30330?\u28779?\u12377?\u12427?\par}
+{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab index\u12502?\u12521?\u12531?\u12481?\u12408?\u12392?reapack-index\u12434?\u23455?\u34892?\u12377?\u12427?\sa180\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab \u26368?\u32066?\u30340?\u12395?{\f1 https://github.com/<user>/<repo>/raw/index/index.xml}\u12364?\u12522?\u12509?\u12472?\u12488?\u12522?URL\u12395?\u12394?\u12427?\sa180\par}
 }
 ]]></description>
   </metadata>
