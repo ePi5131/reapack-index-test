@@ -1,6 +1,7 @@
 --[[
+@provides [main] . > $package/
 @description test-reascript
-@version 1.2
+@version 1.3
 @author ePi
 ]]
 local R=reaper
