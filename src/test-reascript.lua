@@ -1,5 +1,5 @@
 --[[
-@provides [main] . > $package/
+@provides [main] . > ..
 @description test-reascript
 @version 1.3
 @author ePi

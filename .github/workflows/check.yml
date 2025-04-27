@@ -14,6 +14,6 @@ jobs:
       - name: Install reapack-index
         run:  gem install reapack-index
       - name: Fetch repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Validate packages
         run:  reapack-index --check
